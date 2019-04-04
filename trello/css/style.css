@@ -1,0 +1,590 @@
+/* Eric Meyer's CSS Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+}
+
+.slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+
+.slide:nth-child(1) {
+    background: #D93B65;
+}
+
+.slide:nth-child(2) {
+    background: #037E8C;
+}
+
+.slide:nth-child(3) {
+    background: #36BF66;
+}
+
+.slide:nth-child(4) {
+    background: #D9D055;
+}
+
+.slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+    20% {
+        margin-left: 0px;
+    }
+    30% {
+        margin-left: -728px;
+    }
+    50% {
+        margin-left: -728px;
+    }
+    60% {
+        margin-left: -1456px;
+    }
+    70% {
+        margin-left: -1456px;
+    }
+    80% {
+        margin-left: -2184px;
+    }
+    90% {
+        margin-left: -2184px;
+    }
+}
+
+
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End of Eric Meyer's CSS Reset */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    padding: 1em;
+}
+
+div#slider {
+    overflow: hidden;
+
+}
+
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite;
+}
+
+#sidr {
+    padding: 1em;
+    background-color: #d6d6d6;
+    border-bottom: white solid 0.4em;
+    border-left: white solid 0.4em;
+
+}
+
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3.3em;
+    text-align: left;
+    padding-top: .8em;
+    padding-bottom: .4em;
+    padding-left: 0.3em;
+
+}
+
+h3 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.8em;
+    padding-bottom: 1.1em;
+    text-decoration: underline;
+}
+
+#greenb {
+    background-color: #189b00;
+    margin-right: 1.1em;
+    margin-bottom: 1em;
+    padding: 1.4em;
+
+}
+
+#greenb a {
+    text-align: center;
+    color: #FFF;
+    font-size: 1.8em;
+}
+
+#greenb a:hover {
+    text-align: center;
+    color: #FFF;
+    font-size: 1.8em;
+    text-decoration: underline;
+}
+
+.passaff ul {
+    list-style-type: square;
+    text-align: left;
+}
+
+#sidr1 {
+    padding: 1em;
+    background-color: #e6e6e6;
+    border-bottom: white solid 0.4em;
+    border-left: white solid 0.4em;
+}
+
+#sidr3 {
+    padding: 1em;
+    background-color: #d6d6d6;
+    border-bottom: white solid 0.4em;
+    border-left: white solid 0.4em;
+}
+
+#sidr h2 {
+    color: #404040;
+}
+
+#sidr h2:hover {
+    color: #000;
+}
+
+#sidr p {
+    color: #404040;
+}
+
+#sidr p:hover {
+    color: #000;
+}
+
+#sidr4 {
+    padding: 1.5em;
+    background-color: #292929;
+    border-left: white solid 0.4em;
+}
+
+#sidr4 h2 {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 1.3em;
+    color: #FFF;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 16px;
+    padding-top: 14px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+#sec1 {
+    background-color: #ffffff;
+
+}
+
+#sec2 {
+    background-color: #f4f4f4;
+}
+
+#sec3 {
+    background-color: #ffffff;
+}
+
+
+#sec1 h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    padding-top: 14px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+.flex-container img {
+    width: 100%;
+}
+
+.flex-container2 {
+    max-height: 100%;
+    min-height: 100%;
+
+}
+
+
+
+.wrapper {
+    width: 100%;
+    min-width: 200px;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+.header {
+    height: auto;
+    background: #d81818;
+}
+
+p {
+    text-align: left;
+    padding-left: 1em;
+}
+
+.atext {
+    padding-left: 1em;
+    width: 70%;
+}
+
+.apic {
+    width: 30%;
+}
+
+.atext p {
+    font-size: 1.2em;
+    padding: 1.3em;
+
+}
+
+#logo {
+    display: none;
+}
+
+#logo200 {
+    display: block;
+}
+
+.header img {
+    width: 100%s;
+    padding: 1.1em;
+    padding-top: 1.2em;
+}
+
+.header ul {
+    line-height: 3em;
+    background-color: black;
+}
+
+.header li {
+    text-align: right;
+    padding-left: .9em;
+    display: inline;
+    margin-right: 0.8em;
+    font-size: 1.1em;
+    border-right: 1px dotted #4d4d4d;
+    padding-right: 19px;
+    padding-left: 10px;
+
+
+}
+
+.header li:last-of-type {
+    border-right: none;
+}
+
+.header a hover {
+    text-decoration: underline;
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a hover {
+    text-decoration: underline;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+.content {
+    padding: 0 0 100px;
+}
+
+li {
+    font-size: 1.4em;
+    line-height: 1.8em;
+}
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer {
+
+    height: 100px;
+    background: #000;
+}
+
+@media only screen and (min-width: 1040px) {
+    .header {
+        background-color: #d81818;
+    }
+
+    #logo {
+        display: block;
+    }
+
+    #logo200 {
+        display: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: -7.9em;
+    }
+
+    .flex-container a {
+        color: #000;
+        text-decoration: none;
+
+    }
+    .flex-container a:hover {
+        font-size: 1.01em;
+    }
+
+    .flex-container1 {
+        display: flex;
+        flex-direction: column;
+        width: 63%;
+        margin-top: 0.11em;
+    }
+    .flex-container2 {
+        display: flex;
+        flex-direction: column;
+        width: 37%;
+        margin-top: 0.11em;
+
+    }
+    .flex-container3 {
+        display: flex;
+        flex-direction: row;
+        margin-top: -1.7em;
+
+    }
+
+    .flex-container img {
+        width: 100%;
+
+    }
+}

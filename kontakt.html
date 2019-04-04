@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8" />
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+    <title>Kontakt Affiliaten - Affiliaten.dk</title>
+    <meta name="keywords" content="affiliate, tips, nyheder, deals, programmer, cpa, affiliaten, kontakt" />
+    <meta name="description" content="Kontakt Affiliaten.dk hvis du har brug for hjælp til at komme igang som online affiliate. Affiliaten er et online magasin om affiliate marketing." />
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/gif" href="img/favicon.gif" />
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- .header-->
+        <header>
+            <div class="logooo">
+                <a href="index.html"><img src="img/afflogowhite.png" alt="logo"></a>
+            </div>
+            <nav>
+                <input type="checkbox" id="nav" class="hidden" />
+                <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+                <div class="nav-container">
+                    <ul>
+                        <li><a href="index.html">Hjem</a></li>
+                        <li><a href="a.html">Artikler</a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+        </main>
+        <div class="clearfix">
+            <article class="kontakt">
+                <h1>Kontakt</h1>
+                <h2>Sig hej eller ej</h2>
+                <p>5069 8230<br> Grønnegade 64, 5.<br> 8000 Aarhus<br> Danmark<br><br>hej@affiliaten.dk
+                    <br><br>
+                    <a href=http://facebook.com/asger.dr>Facebook</a></p><br>
+            </article><br><br>
+        </div>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var uluru = {
+                    lat: 56.160206,
+                    lng: 10.200710
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 16,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5IN_6TPUViLDWULC3dYsBMTLH1Yt5UnY&callback=initMap">
+        </script>
+        <!-- .content -->
+
+    </div>
+    <!-- .wrapper -->
+
+    <div class="simple-subscription-form">
+        <form>
+            <h4>Tilmeld dig vores nyhedsbrev med tips og tricks</h4>
+            <div class="input-group"></div>
+            <div class="input-group-label">
+                <i class="fa fa-envelope"></i>
+            </div>
+            <input class="input-group-field" type="email" placeholder=" E-mail" required>
+            <button class="button">Tilmeld</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <ul>
+            <li>Affiliaten A/S</li>
+            <li>Grønnegade 74, 5th</li>
+            <li>8000 Aarhus C</li>
+            <li>Danmark</li>
+            <li>hej@affiliaten.dk</li>
+            <li>+45 50698231</li>
+
+        </ul>
+    </footer>
+    <!-- .footer -->
+
+</body>
+
+</html>
